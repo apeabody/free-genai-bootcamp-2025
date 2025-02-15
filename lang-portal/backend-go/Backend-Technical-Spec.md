@@ -10,6 +10,8 @@
 ## Technical Requirements
 
 - Backend will be written in Go
+- Mage is a task runner for Go
+- The API will be built using Gin
 - Database will be SQLite
 - API will return JSON
 - No authentication or authorization
@@ -452,8 +454,6 @@ Records a word review in a study session.
 ```
 
 ## Scripts (tasks)
-
-Use the Go `Task` package.
 
 ### Initilze Database
 This task will initialize the sqlite3 database by creating the necessary tables.
